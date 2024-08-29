@@ -1,0 +1,150 @@
+/* Center the form on the page using flexbox */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%; /* Initially set the width to 80% for small screens */
+    max-width: 400px; /* Ensure the form doesn't exceed 400px on larger screens */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Style for the labels */
+label {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Style for the input fields */
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the form submit button */
+#form-submit {
+    background: #0066A2;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font: bold 15px Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-submit:hover {
+    background: #005090;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    form {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    form {
+        width: 30%;
+    }
+}
+
+
+/* form {
+    display: inline-block;
+    margin: 0px 380px;
+    width: 400px;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#form-submit {
+    background: #0066A2;
+    color: white;
+    width: 100px; 
+    height: 40px;
+    border-color: #0066A2;
+    margin-left: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+
+
+
+
+/* form {
+    display: inline-block;
+    margin: 0px 380px;
+    width: 400px;
+}
+
+
+label {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+#form-submit {
+    background: #0066A2;
+    color: white;
+    margin-top: 10px;
+    width: 100xp;
+    height: 40px;
+    border-color: #0066A2;
+    margin-left: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+} */ 
