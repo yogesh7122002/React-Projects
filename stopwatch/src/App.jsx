@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [time, setTime] = useState({ hours: 0, minutes: 0, seconds: 0, milliseconds: 0 })
+  const [time, setTime] = useState({ hours: 59, minutes: 59, seconds: 59, milliseconds: 590 })
   const [isRunning, setIsRunning] = useState(false)
   const [intervalId, setIntervalId] = useState(null)
 
