@@ -2,6 +2,8 @@ import React from "react";
 import { Link, NavLink } from 'react-router-dom';
 
 import Logo from '../assets/logo.jpeg'
+import dev from '../assets/dev.png'
+
 
 function Header() {
     return (

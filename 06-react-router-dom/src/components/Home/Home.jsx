@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import dev from "../assets/dev.png"
 export default function Home() {
     return (
         <>
 
             {/* Upper Section */}
-            <div class="flex flex-col mx-7 md:flex-row items-center bg-gradient-to-r from-orange-500 to-orange-800 p-8 rounded-lg shadow-lg">
+            <div class="flex flex-col mx-10 my-5 md:flex-row items-center bg-gradient-to-r from-orange-500 to-orange-800 p-8 rounded-lg shadow-lg">
                 {/* <!-- Image Section --> */}
                 <div class="w-full md:w-1/2 flex justify-center">
                     <img
-                        className="w-full max-w-lg sm:max-w-none sm:w-[30rem] transform rotate-6 sm:rotate-0 rounded-lg shadow-xl"
-                        src="https://i.ibb.co/5BCcDYB/Remote2.png"
+                        className="w-full max-w-lg sm:max-w-none sm:w-[30rem] transform rotate-6 sm:rotate-0 rounded-2xl  shadow-2xl"
+                        src={dev}
                         alt="Your Image Description"
                     />
                 </div>

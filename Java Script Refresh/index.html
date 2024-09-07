@@ -2,30 +2,27 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Form Example</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
-    <script>
-        let a = 23;
-        console.log(23);
-        let arr = [1, 23, 5];
-        console.log(arr);
-        let conf = confirm("Are You Shure");
-        let myfunc = (number) => {
-            console.log("The Number is " + this);
-        }
-        myfunc(); 
-        setTimeout(()=>{
-            console.log("I'm the waiting Script")
-        },3000)
-        console.log("The Name Of the King Is Nepolian")
-    </script>
 </head>
-Iam learner
 
 <body>
 
+    <form onsubmit="return handleSubmit()">
+        <input type="number" id="age" placeholder="Enter your age">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const handleSubmit = () => {
+            let age = document.getElementById('age').value;
+            console.log(age);
+            alert(`Your age is ${age}`)
+        return true
+        }
+    </script>
 </body>
 
 </html>
