@@ -28,7 +28,7 @@
 
 const arr = [12, 3, 4, 5, 3, 2, 432]
 
-let temp = arr
-            .map((num) => num+10)
-            .filter((num)=> num>13)
-console.log(temp)
+// let temp = arr
+//             .map((num) => num+10)
+//             .filter((num)=> num>13)
+// console.log(temp)
