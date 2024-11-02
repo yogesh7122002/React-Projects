@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   const [counter, setCounter] = useState(10)
-  function notnegative() { setCounter(0) }
+  function notnegative() {setCounter(0) }
   function maxLimit () {setCounter(20)}
 
   // let counter = 9

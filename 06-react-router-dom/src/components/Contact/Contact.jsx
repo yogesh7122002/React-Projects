@@ -131,9 +131,10 @@ export default function Contact() {
                                     Details
                                 </label>
                                 <textarea
-                                    className="w-full py-3 px-3 rounded-lg bg-gray-50 border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
+                                    className="w-full py-3 px-3 row-span-5 rounded-lg bg-gray-50 border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                     name="details"
                                     id="details"
+                                    rows={9}
                                     placeholder="Add Details"
                                 ></textarea>
                             </div>

@@ -7,6 +7,7 @@ import Root from './components/root/Root.jsx'
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Temp from './components/Testing/Temp.jsx'
 
 // const appRouter = createBrowserRouter([
 //   {
@@ -25,15 +26,15 @@ import Contact from './components/Contact/Contact.jsx'
 //       }
 //     ]
 //   },
- 
+
 // ])
 const appRouter = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root/>}>
-      <Route path='' element={<Home/>}/>
-      <Route path='about' element={<About/>}/>
-      <Route path='contact' element={<Contact/>}/>
-
+    <Route path="/" element={<Root />}>
+      <Route path='' element={<Home />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='temp' element={<Temp />} />
     </Route>
   )
 )
